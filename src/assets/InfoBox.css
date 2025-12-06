@@ -1,0 +1,23 @@
+.InfoBox {
+    text-align: center;
+    margin-top: 2rem;
+    width: 100%;
+}
+
+.cardContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.InfoBox .MuiCard-root {
+    border-radius: 16px !important;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1) !important;
+    transition: transform 0.3s ease-in-out !important;
+    background: rgba(255, 255, 255, 0.95) !important;
+    width: 345px;
+}
+
+.InfoBox .MuiCard-root:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.15) !important;
+}
